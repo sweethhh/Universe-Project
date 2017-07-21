@@ -1,0 +1,621 @@
+body{
+		margin: 0;
+		padding: 0;
+	}
+/*导航*/
+.guide{
+	/*background:rgba(255,255,255,0.5);*/
+	font-family: "黑体";
+	font-size: 30px;
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	color: white;
+}
+.guideMain{
+	position: relative;
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+}
+/*logo*/
+.logo img{
+	border-radius: 0 0 10px 10px; 
+/*	background: rgba(255,255,255,0.9);*/
+	position: absolute;
+	left: 0;
+/*	width: 80px;*/
+	height: 80px;
+}
+/*导航中的文字*/
+.guideText{
+	height: 60px;
+	position: absolute;
+	right: 0;
+}
+.guideText a{
+	transition: border 0.8s;
+	border-bottom: 2px solid rgba(255,255,255,0); 
+	margin-top: 20px;
+	height: 30px;
+	padding-left: 15px;
+	padding-right: 15px; 
+	display: inline-block;
+	text-decoration: none;
+	color:white; 
+	font-size: 16px;
+	font-family:"微软雅黑";
+}
+a.index{
+	border-bottom: 2px solid rgba(255,255,255,0.8); 
+}
+.guideText a:hover{
+	border-bottom: 2px solid rgba(255,255,255,0.8); 
+}
+/*banner*/
+.banner{
+	background: url(../img/indexBanner.jpg);
+/*	background-size:100%; */
+	height: 500px;
+	width: 100%;
+/*	line-height: 500px;*/
+	color: white;
+	font-size: 60px;
+	font-family: "华文中宋";
+}
+/*banner的闪烁条*/
+.twinkle{
+	display: inline-block;
+	margin-bottom: -13px;
+	margin-left: 5px;
+	width: 8px;
+	height: 55px;
+	background: white;
+}
+/*banner的文字*/
+.banner-ad{
+	color: orange;
+	font-size: 60px;
+	font-family: "华文中宋";
+	width: 600px;
+	height: 500px;
+	line-height: 500px;
+	margin: 0 auto;
+}
+/*banner的英文字体*/
+.univers{
+	color:white;
+	font-family: Verdana;
+}
+/*我们的优势*/
+.ourAdvantage{
+	overflow: hidden;
+	width: 1000px;
+	height: 590px;
+	margin: 20px auto;
+}
+.ourAdvantage .advantageTitle{
+	text-align:center; 
+	margin: 0 auto;
+	width: 500px;
+	height: 70px;
+}
+.ourAdvantage .advantageTitle h3{
+	cursor: pointer;
+	transition: width 1s;
+	margin-top: 0px;
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+	font-size:30px;
+	font-family: "微软雅黑"; 
+	font-weight: 100;
+	border-bottom: 4px solid #F1501A;
+	color: #333333;
+}
+.ourAdvantage .advantageTitle h3:hover{
+	width: 280px;
+}
+.ourAdvantage .advantageMain .advantageBox{
+	transition: background 1s;
+	width: 280px;
+	height: 400px;
+	float: left;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 15px;
+	background: #F59474;
+	text-align: center;
+}
+.boxCenter{
+	transition: background 1s; 
+	transition: height 0.5s;
+	width: 280px;
+	height: 400px;
+	float: left;
+	border: 1px solid rgba(252,51,5,0.2);
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 15px;
+	text-align: center;
+	background: white;
+}
+.ourAdvantage .advantageMain img{
+	transition: margin-top 0.5s;
+	width: 120px;
+	height: 120px;
+	margin-top: 90px;
+}
+.ourAdvantage .advantageMain h3{
+	color: #3D444F;
+	font-family: "微软雅黑";
+	font-size: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: 100;
+	width: 250px;
+	margin-left: 15px; 
+}
+.ourAdvantage .advantageMain span{
+	display: inline-block;
+	width: 200px;
+	color: #3D444F;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	margin-top: 5px;
+}
+.ourAdvantage .advantageMain .advantageBox:hover img{
+	margin-top: 70px;
+}
+.ourAdvantage .advantageMain .boxCenter:hover img{
+	margin-top: 70px;
+}
+/*我们的服务*/
+.ourServe{
+	width: 100%;
+	height: 500px;
+	background: url(../img/serveBg.jpg);
+}
+.ourServe .serveTitle{
+	text-align:center; 
+	margin: 0 auto;
+	width: 500px;
+	height: 70px;
+}
+.ourServe .serveTitle h3{
+	cursor: pointer;
+	transition: width 1s;
+	margin-top: 0px;
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+	font-size:30px;
+	font-family: "微软雅黑"; 
+	font-weight: 100;
+	border-bottom: 4px solid #F1501A;
+	color: #333333;
+}
+.ourServe .serveTitle h3:hover{
+	width: 280px;
+}
+.serveMain{
+	overflow: hidden;
+	margin: 20px auto;
+	width: 999px;
+	height: 350px;
+}
+.serveMain .serveMainBoxBig{
+	width: 300px;
+	height: 300px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.serveMain .serveMainBoxBig .serveMainBox{
+	widows: 300px;
+	height: 120px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.serveIntro{
+	padding-top: 20px;
+	padding-left: 5px;
+	display: inline-block;
+	width: 125px;
+	height: 100px;
+	float: right;
+} 
+.serveIntro h4{
+	font-family: "微软雅黑";
+	font-weight: 100;
+	font-size: 17px;
+	margin: 0;
+	margin-bottom: 20px;
+	margin-left: 10px;
+} 
+.serveIntro a{
+	font-family: "微软雅黑";
+	border:1px solid #F59474;
+	color: white;
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	background: #F59474;
+	text-decoration: none;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 15px;
+	transition: background 0.5s;
+}
+.serveIntro a:hover{
+	color: #F59474;
+	background: white;
+}
+.serveMain .serveMainBox img{
+	float: left;
+	border-radius: 20px;
+	width: 150px;
+}
+/*aboutUs*/
+.aboutUs{
+	margin-top: 30px;
+	width: 100%;
+	height: 550px;
+}
+.aboutUs .aboutUsTitle{
+	text-align:center; 
+	margin: 0 auto;
+	width: 500px;
+	height: 70px;
+}
+.aboutUs .aboutUsTitle h3{
+	cursor: pointer;
+	transition: width 1s;
+	margin-top: 0px;
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+	font-size:30px;
+	font-family: "微软雅黑"; 
+	font-weight: 100;
+	border-bottom: 4px solid #F1501A;
+	color: #333333;
+}
+.aboutUs .aboutUsTitle h3:hover{
+	width: 280px;
+}
+.aboutUs .aboutUsMain{
+	overflow: hidden;
+	width: 1050px;
+	height: 300px;
+	margin: 0 auto;
+}
+.aboutUs .aboutUsMain img{
+	margin-top: 50px;
+	display: inline-block;
+	width: 450px;
+	float: right;
+}
+.aboutUs .aboutUsMain .aboutUsMainIntro{
+	width: 550px;
+	height: 300px;
+	float: left;
+	font-family: "微软雅黑";
+}
+.aboutUs .aboutUsMain .aboutUsMainIntro h4{
+	font-weight: 100;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+.aboutUs .aboutUsMain .aboutUsMainIntro p{
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+.aboutUs .aboutUsButton{
+	font-family: "微软雅黑";
+	width: 410px;
+	height: 50px;
+	margin: 5px auto;
+}
+.aboutUs .aboutUsButton a.knowMore{
+	margin-right: 50px;
+	transition: background 0.5s;
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	border:1px solid #F59474;
+	background: #F59474;
+	border-radius: 25px;
+	text-decoration: none;
+}
+.aboutUs .aboutUsButton a.conmunUs{
+	transition: background 0.5s;
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #F59474;
+	border:1px solid #F59474;
+	background: white;
+	border-radius: 25px;
+	text-decoration: none;
+}
+.aboutUs .aboutUsButton a.knowMore:hover{
+	background: white;
+	color: #F59474;
+}
+.aboutUs .aboutUsButton a.conmunUs:hover{
+	background: #F59474;
+	color: white;
+}
+/*结束广告语*/
+.endAd{
+	background: url(../img/indexAdmohu.png) no-repeat;
+	background-size: 100% 500px;
+	width: 100%;
+	height: 500px;
+}
+.endAd .endAdTitle{
+	text-align:center; 
+	margin: 0 auto;
+	width: 500px;
+	height: 70px;
+}
+.endAd .endAdTitle h3{
+	cursor: pointer;
+	transition: width 1s;
+	margin-top:70px; 
+	display: inline-block;
+	height: 50px;
+	width: 300px;
+	font-size:30px;
+	font-family: "微软雅黑"; 
+	font-weight: 100;
+	border-bottom: 4px solid #F1501A;
+	color: white;
+}
+.endAd .endAdTitle h3:hover{
+	width: 380px;
+}
+.endAd .endAdIntro p.bigAd{
+	font-family: "微软雅黑";
+	color: white;
+	width: 700px;
+	height: 50px;
+	font-size: 40px;
+	margin: 70px auto;
+	text-align: center;
+}
+.endAd .endAdIntro p.smallAd{
+	font-family: "微软雅黑";
+	padding-top: 10px;
+	color: white;
+	width: 400px;
+	height: 50px;
+	font-size: 15px;
+	margin: 70px auto;
+	text-align: center;
+	border-top: 1px solid #9E808F;
+	margin-bottom: 0;
+}
+.endAdButton{
+	width: 330px;
+	height: 80px;
+	margin: 10px auto;
+}
+.endAdButton a{
+	margin-right: 20px;
+	transition: background 0.5s;
+	font-family: "微软雅黑";
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	border: 1px solid white;
+	line-height: 40px;
+	text-align: center;
+}
+.endAdButton a:hover{
+	color: #9E808F;
+	background: white;
+}
+/*意见反馈*/
+.suggest{
+	font-family: "微软雅黑";
+	background: #F4F4F4;
+	width: 100%;
+	height: 650px;
+}
+.suggest .suggestTitle{
+	text-align:center; 
+	margin: 0 auto;
+	width: 500px;
+	height: 70px;
+	padding-top: 20px;
+}
+.suggest .suggestTitle h3{
+	cursor: pointer;
+	transition: width 1s;
+	margin-top:0px; 
+	display: inline-block;
+	height: 50px;
+	width: 200px;
+	font-size:30px;
+	font-family: "微软雅黑"; 
+	font-weight: 100;
+	border-bottom: 4px solid #F1501A;
+	color: #333333;
+}
+.suggest .suggestTitle h3:hover{
+	width: 280px;
+}
+.suggest .suggestMain{
+	overflow: hidden;
+	width: 1050px;
+/*	height: 412px;*/
+	margin: 10px auto;
+}
+.suggest .suggestMain form{
+	width: 520px;
+	height: 410px;
+	float: left;
+/*	border: 1px solid black;*/
+	border-right: 1px solid #9C9C9C; 
+}
+.suggest .suggestMain form h3{
+	color: #F1501A;
+	margin-top: 30px;
+	margin-left: 50px;
+	font-size: 27px;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+.suggest .suggestMain form textarea,input{
+	font-size: 15px;
+}
+.suggest .suggestMain form input{
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 260px;
+	height: 25px;
+}
+.suggest .suggestMain img{
+	float: right;
+	width: 500px;
+}
+.suggest .suggestMain form textarea{
+	margin: 50px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	font-family: "微软雅黑";
+	resize: none;
+	width: 380px;
+	height: 200px;
+}
+.suggest .suggestMain form input.submit{
+	width: 100px;
+	background: #F1501A;
+	color: white;
+	border: 1px solid #F1501A;
+	height: 30px;
+	border-radius: 15px;
+	transition: background 0.5s;
+}
+.suggest .suggestMain form input.submit:hover{
+	background: white;
+	color: #F1501A;
+}
+/*footer*/
+.footer{
+	width: 100%;
+	height: 337px;
+	background-color: #000;
+	opacity: 0.8;
+	border: 1px solid #000;
+}
+.over{
+	width: 1045px;
+	height: 230px;
+	margin: 20px auto;
+	color:#FFF;
+	text-align: center;
+}
+.over ul li span{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.over ul{
+	width: 100%;
+	height: 230px;
+}
+.over ul li{
+	width: 25%;
+	height: 230px;
+	float: left;
+}
+.friend_link{
+	width: 230px;
+	height: 230px;
+    margin: 20px auto;
+}
+.friend_link ul{
+	width: 230px;
+	height: 230px;
+}
+.friend_link ul li{
+	width: 50%;
+	height: 20px;
+	margin-top: 10px;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	text-align: left;
+}
+.member_photo{
+	width: 180px;
+	height: 180px;
+    margin: 20px auto;
+    border: 2px solid #898989;
+}
+.Q_pic{
+	width: 100px;
+	height: 100px;
+    margin: 60px auto;
+}
+.Q_pic img{
+    width: 100px;
+	height: 100px;
+	opacity: 0.7;
+}
+.Q_pic img:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+.member_photo ul{
+	width: 180px;
+	height: 180px;
+}
+.member_photo ul li{
+	width: 56px;
+	height: 56px;
+	border: 2px solid #898989;
+	float: left;
+}
+.member_photo ul li img{
+	width: 56px;
+	height: 56px;
+	opacity: 0.9;
+}
+.member_photo ul li img:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+.blow{
+	width: 80%;
+	height: 43px;
+	margin: 17px auto;
+	border-top: 1px solid #fff;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 68px;
+}
+.footer ul,li,ol,p,a,span{
+	margin: 0; padding: 0;
+}
+.footer a{
+	text-decoration: none;
+}
+.footer li{
+	list-style: none; 
+}

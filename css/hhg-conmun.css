@@ -1,0 +1,246 @@
+body{
+		margin: 0;
+		padding: 0;
+	}
+/*导航*/
+.guide{
+/*	background:rgba(0,0,0,0.5);*/
+	font-family: "黑体";
+	font-size: 30px;
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	color: white;
+}
+.guideMain{
+	position: relative;
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+}
+/*logo*/
+.logo img{
+	border-radius: 0 0 10px 10px; 
+/*	background: rgba(255,255,255,0.9);*/
+	position: absolute;
+	left: 0;
+/*	width: 80px;*/
+	height: 80px;
+}
+/*导航中的文字*/
+.guideText{
+	height: 60px;
+	position: absolute;
+	right: 0;
+}
+.guideText a{
+	transition: border 0.8s;
+	border-bottom: 2px solid rgba(255,255,255,0); 
+	margin-top: 20px;
+	height: 30px;
+	padding-left: 15px;
+	padding-right: 15px; 
+	display: inline-block;
+	text-decoration: none;
+	color:white; 
+	font-size: 16px;
+	font-family:"微软雅黑";
+}
+a.conmun{
+	border-bottom: 2px solid rgba(255,255,255,0.8); 
+}
+.guideText a:hover{
+	border-bottom: 2px solid rgba(255,255,255,0.8); 
+}
+/*banner*/
+.banner{
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 500px;
+	width: 100%;
+	height: 500px;
+	background: url(../img/conmunBanner.jpg) no-repeat;
+	background-size: 100% 500px;
+}
+.banner h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline-block;
+	width: 900px;
+	height: 100px;
+	font-size: 55px;
+	color:white;
+	text-shadow: 5px 5px 5px #817D7D;
+}
+/*联系我们主要部分*/
+.conmunMainBig{
+	width: 100%;
+	height: 500px;
+}
+.conmunMain{
+	margin:0 auto; 
+	width: 1100px;
+	height: 500px;
+	overflow: hidden;
+}
+.conmunMain .conmunText{
+	background: url(../img/logoWhite.jpg) no-repeat;
+	background-size: 180px;
+	background-position: right bottom;
+	width: 500px;
+	height: 400px;
+	margin-top: 50px;
+	float: left;
+	color:rgb(102, 102, 102);
+	font-family: "微软雅黑";
+}
+.conmunMain .conmunText h2{
+	color: #F1501A;
+	font-size:30px;
+	font-weight: 100;
+} 
+.conmunMain form{
+	width: 500px;
+	height: 500px;
+	margin-top: 50px;
+	float: right;
+}
+.conmunMain form input{
+	margin-top: 15px;
+	width: 430px;
+	height: 40px;
+	font-size: 15px;
+	padding-left: 20px;
+	font-family: "微软雅黑";
+}
+.conmunMain form input.submit{
+	width: 150px;
+	height: 50px;
+	background: #F1501A;
+	border-radius: 25px;
+	border: 1px solid #F1501A;
+	color: white;
+	text-align: center;
+	padding: 0;
+	transition: background 0.5s;
+}
+.conmunMain form input.submit:hover{
+	background: white;
+	color: #F1501A;
+}
+.conmunMain form textarea{
+	margin-top: 15px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	padding-left: 20px;
+	width: 430px;
+	height: 100px;
+	resize: none;
+}
+/*footer*/
+.footer{
+	width: 100%;
+	height: 337px;
+	background-color: #000;
+	opacity: 0.8;
+	border: 1px solid #000;
+}
+.over{
+	width: 1045px;
+	height: 230px;
+	margin: 20px auto;
+	color:#FFF;
+	text-align: center;
+}
+.over ul li span{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.over ul{
+	width: 100%;
+	height: 230px;
+}
+.over ul li{
+	width: 25%;
+	height: 230px;
+	float: left;
+}
+.friend_link{
+	width: 230px;
+	height: 230px;
+    margin: 20px auto;
+}
+.friend_link ul{
+	width: 230px;
+	height: 230px;
+}
+.friend_link ul li{
+	width: 50%;
+	height: 20px;
+	margin-top: 10px;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	text-align: left;
+}
+.member_photo{
+	width: 180px;
+	height: 180px;
+    margin: 20px auto;
+    border: 2px solid #898989;
+}
+.Q_pic{
+	width: 100px;
+	height: 100px;
+    margin: 60px auto;
+}
+.Q_pic img{
+    width: 100px;
+	height: 100px;
+	opacity: 0.7;
+}
+.Q_pic img:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+.member_photo ul{
+	width: 180px;
+	height: 180px;
+}
+.member_photo ul li{
+	width: 56px;
+	height: 56px;
+	border: 2px solid #898989;
+	float: left;
+}
+.member_photo ul li img{
+	width: 56px;
+	height: 56px;
+	opacity: 0.9;
+}
+.member_photo ul li img:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+.blow{
+	width: 80%;
+	height: 43px;
+	margin: 17px auto;
+	border-top: 1px solid #fff;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 68px;
+}
+.footer ul,li,ol,p,a,span{
+	margin: 0; padding: 0;
+}
+.footer a{
+	text-decoration: none;
+}
+.footer li{
+	list-style: none; 
+}
