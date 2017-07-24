@@ -4,11 +4,11 @@ body{
 	}
 /*导航*/
 .guide{
-	/*background:rgba(255,255,255,0.5);*/
+	background:rgba(0,0,0,0.7);
 	font-family: "黑体";
 	font-size: 30px;
 	width: 100%;
-	height: 60px;
+	height: 50px;
 	position: absolute;
 	top: 0;
 	color: white;
@@ -26,7 +26,8 @@ body{
 	position: absolute;
 	left: 0;
 /*	width: 80px;*/
-	height: 80px;
+	height: 30px;
+	margin-top: 10px;
 }
 /*导航中的文字*/
 .guideText{
@@ -37,7 +38,7 @@ body{
 .guideText a{
 	transition: border 0.8s;
 	border-bottom: 2px solid rgba(255,255,255,0); 
-	margin-top: 20px;
+	margin-top: 10px;
 	height: 30px;
 	padding-left: 15px;
 	padding-right: 15px; 
@@ -55,8 +56,8 @@ a.index{
 }
 /*banner*/
 .banner{
-	background: url(../img/indexBanner.jpg);
-/*	background-size:100%; */
+	background: url(../img/indexBanner1.jpg) center no-repeat;
+	background-size:cover; 
 	height: 500px;
 	width: 100%;
 /*	line-height: 500px;*/
@@ -75,7 +76,7 @@ a.index{
 }
 /*banner的文字*/
 .banner-ad{
-	color: orange;
+	color: white;
 	font-size: 60px;
 	font-family: "华文中宋";
 	width: 600px;
@@ -85,14 +86,14 @@ a.index{
 }
 /*banner的英文字体*/
 .univers{
-	color:white;
-	font-family: Verdana;
+	color:black;
+	font-family: Verdana,"华文中宋";
 }
 /*我们的优势*/
 .ourAdvantage{
 	overflow: hidden;
 	width: 1000px;
-	height: 590px;
+	height: 550px;
 	margin: 20px auto;
 }
 .ourAdvantage .advantageTitle{
@@ -120,32 +121,32 @@ a.index{
 .ourAdvantage .advantageMain .advantageBox{
 	transition: background 1s;
 	width: 280px;
-	height: 400px;
+	height: 300px;
 	float: left;
 	margin-right: 25px;
 	margin-left: 25px;
 	margin-top: 15px;
-	background: #F59474;
+/*	background: #F59474;*/
 	text-align: center;
 }
 .boxCenter{
 	transition: background 1s; 
 	transition: height 0.5s;
 	width: 280px;
-	height: 400px;
+	height: 300px;
 	float: left;
-	border: 1px solid rgba(252,51,5,0.2);
+/*	border: 1px solid rgba(252,51,5,0.2);*/
 	margin-right: 25px;
 	margin-left: 25px;
 	margin-top: 15px;
 	text-align: center;
-	background: white;
+/*	background: white;*/
 }
 .ourAdvantage .advantageMain img{
 	transition: margin-top 0.5s;
-	width: 120px;
+/*	width: 120px;*/
 	height: 120px;
-	margin-top: 90px;
+	margin-top: 50px;
 }
 .ourAdvantage .advantageMain h3{
 	color: #3D444F;
@@ -166,10 +167,10 @@ a.index{
 	margin-top: 5px;
 }
 .ourAdvantage .advantageMain .advantageBox:hover img{
-	margin-top: 70px;
+	margin-top: 35px;
 }
 .ourAdvantage .advantageMain .boxCenter:hover img{
-	margin-top: 70px;
+	margin-top: 35px;
 }
 /*我们的服务*/
 .ourServe{
@@ -514,23 +515,40 @@ a.index{
 	color: #F1501A;
 }
 /*footer*/
+.footer ul,li,ol,p,a,span{
+	margin: 0; padding: 0;
+}
+span{
+	margin: 0;
+	padding: 0;
+}
+.footer  a{
+	text-decoration: none;
+}
+.footer li{
+	list-style: none; 
+}
+/*body{
+	background-color: #f7f9fa;
+}*/
 .footer{
 	width: 100%;
 	height: 337px;
 	background-color: #000;
-	opacity: 0.8;
+	opacity: 1;
 	border: 1px solid #000;
 }
 .over{
-	width: 1045px;
+	width: 80%;
 	height: 230px;
 	margin: 20px auto;
-	color:#FFF;
-	text-align: center;
+	color:#a9a9a9;
 }
 .over ul li span{
 	width: 100%;
 	height: 30px;
+/*	margin-left: 38%;*/
+/*	background-color: #fff;*/
 	line-height: 30px;
 	text-align: center;
 }
@@ -540,82 +558,63 @@ a.index{
 }
 .over ul li{
 	width: 25%;
+/*	margin-left: 3%;*/
 	height: 230px;
 	float: left;
 }
-.friend_link{
-	width: 230px;
-	height: 230px;
-    margin: 20px auto;
-}
-.friend_link ul{
-	width: 230px;
-	height: 230px;
-}
-.friend_link ul li{
-	width: 50%;
-	height: 20px;
-	margin-top: 10px;
+.footerIntr{
+	width: 100%;
+	height: 180px;
+	margin-top: 20px;
 	float: left;
-	color: #fff;
+	color: #a9a9a9;
 	font-size: 12px;
 	text-align: left;
+	text-indent: 2em;
 }
-.member_photo{
-	width: 180px;
-	height: 180px;
-    margin: 20px auto;
-    border: 2px solid #898989;
-}
-.Q_pic{
-	width: 100px;
-	height: 100px;
-    margin: 60px auto;
-}
-.Q_pic img{
-    width: 100px;
-	height: 100px;
-	opacity: 0.7;
-}
-.Q_pic img:hover{
-	opacity: 1;
-	cursor: pointer;
-}
-.member_photo ul{
-	width: 180px;
-	height: 180px;
-}
-.member_photo ul li{
-	width: 56px;
-	height: 56px;
-	border: 2px solid #898989;
+.footerIntr img{
+	width: 16px;
+	height: 16px;
+	margin-left: 30%;
 	float: left;
 }
-.member_photo ul li img{
-	width: 56px;
-	height: 56px;
-	opacity: 0.9;
+.S_top{
+    margin-top: 10px;
 }
-.member_photo ul li img:hover{
-	opacity: 1;
-	cursor: pointer;
+.S_top1{
+    margin-top: 16px;
+}
+.footerIntr p{
+	width: 100px;
+	height: 16px;
+	float: left;
+/*	text-align: left;*/
+/*	margin-left: 10px;*/
+}
+.footerContent{
+	width: 80%;
+	margin: 0 auto;
+}
+.left{
+	margin-left: 20%;
+}
+.left1{
+	margin-left: 28%;
+}
+.grayLine{
+	width: 50%;
+	height: 1px;
+	margin-top: 20px;
+	margin-left: 28%;
+	background-color: #a9a9a9;
 }
 .blow{
 	width: 80%;
 	height: 43px;
 	margin: 17px auto;
-	border-top: 1px solid #fff;
-	color: #fff;
+	border-top: 1px solid #a9a9a9;
+	color: #a9a9a9;
 	text-align: center;
 	font-size: 16px;
 	line-height: 68px;
-}
-.footer ul,li,ol,p,a,span{
-	margin: 0; padding: 0;
-}
-.footer a{
-	text-decoration: none;
-}
-.footer li{
-	list-style: none; 
 }

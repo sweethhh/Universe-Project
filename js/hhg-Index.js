@@ -8,4 +8,9 @@ $(function(){
 			$(".twinkle").fadeIn(200);
 		}
 	}
+	// logo闪烁
+	setInterval(logoTwinkle,300);
+	function logoTwinkle(){
+		$(".logoTwinkle").toggle();
+	}
 });

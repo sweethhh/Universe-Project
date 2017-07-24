@@ -4,11 +4,11 @@ body{
 	}
 /*导航*/
 .guide{
-/*	background:rgba(0,0,0,0.5);*/
+	background:rgba(0,0,0,0.7);
 	font-family: "黑体";
 	font-size: 30px;
 	width: 100%;
-	height: 60px;
+	height: 50px;
 	position: absolute;
 	top: 0;
 	color: white;
@@ -26,7 +26,8 @@ body{
 	position: absolute;
 	left: 0;
 /*	width: 80px;*/
-	height: 80px;
+	height: 30px;
+	margin-top: 10px;
 }
 /*导航中的文字*/
 .guideText{
@@ -37,7 +38,7 @@ body{
 .guideText a{
 	transition: border 0.8s;
 	border-bottom: 2px solid rgba(255,255,255,0); 
-	margin-top: 20px;
+	margin-top: 10px;
 	height: 30px;
 	padding-left: 15px;
 	padding-right: 15px; 
@@ -85,7 +86,7 @@ a.conmun{
 	overflow: hidden;
 }
 .conmunMain .conmunText{
-	background: url(../img/logoWhite.jpg) no-repeat;
+/*	background: url(../img/logoWhite.jpg) no-repeat;*/
 	background-size: 180px;
 	background-position: right bottom;
 	width: 500px;
@@ -139,23 +140,40 @@ a.conmun{
 	resize: none;
 }
 /*footer*/
+.footer ul,li,ol,p,a,span{
+	margin: 0; padding: 0;
+}
+span{
+	margin: 0;
+	padding: 0;
+}
+.footer  a{
+	text-decoration: none;
+}
+.footer li{
+	list-style: none; 
+}
+/*body{
+	background-color: #f7f9fa;
+}*/
 .footer{
 	width: 100%;
 	height: 337px;
 	background-color: #000;
-	opacity: 0.8;
+	opacity: 1;
 	border: 1px solid #000;
 }
 .over{
-	width: 1045px;
+	width: 80%;
 	height: 230px;
 	margin: 20px auto;
-	color:#FFF;
-	text-align: center;
+	color:#a9a9a9;
 }
 .over ul li span{
 	width: 100%;
 	height: 30px;
+	margin-left: 38%;
+/*	background-color: #fff;*/
 	line-height: 30px;
 	text-align: center;
 }
@@ -165,82 +183,63 @@ a.conmun{
 }
 .over ul li{
 	width: 25%;
+/*	margin-left: 3%;*/
 	height: 230px;
 	float: left;
 }
-.friend_link{
-	width: 230px;
-	height: 230px;
-    margin: 20px auto;
-}
-.friend_link ul{
-	width: 230px;
-	height: 230px;
-}
-.friend_link ul li{
-	width: 50%;
-	height: 20px;
-	margin-top: 10px;
+.footerIntr{
+	width: 100%;
+	height: 180px;
+	margin-top: 20px;
 	float: left;
-	color: #fff;
+	color: #a9a9a9;
 	font-size: 12px;
 	text-align: left;
+	text-indent: 2em;
 }
-.member_photo{
-	width: 180px;
-	height: 180px;
-    margin: 20px auto;
-    border: 2px solid #898989;
-}
-.Q_pic{
-	width: 100px;
-	height: 100px;
-    margin: 60px auto;
-}
-.Q_pic img{
-    width: 100px;
-	height: 100px;
-	opacity: 0.7;
-}
-.Q_pic img:hover{
-	opacity: 1;
-	cursor: pointer;
-}
-.member_photo ul{
-	width: 180px;
-	height: 180px;
-}
-.member_photo ul li{
-	width: 56px;
-	height: 56px;
-	border: 2px solid #898989;
+.footerIntr img{
+	width: 16px;
+	height: 16px;
+	margin-left: 30%;
 	float: left;
 }
-.member_photo ul li img{
-	width: 56px;
-	height: 56px;
-	opacity: 0.9;
+.S_top{
+    margin-top: 10px;
 }
-.member_photo ul li img:hover{
-	opacity: 1;
-	cursor: pointer;
+.S_top1{
+    margin-top: 16px;
+}
+.footerIntr p{
+	width: 100px;
+	height: 16px;
+	float: left;
+/*	text-align: left;*/
+/*	margin-left: 10px;*/
+}
+.footerContent{
+	width: 80%;
+	margin: 0 auto;
+}
+.left{
+	margin-left: 20%;
+}
+.left1{
+	margin-left: 28%;
+}
+.grayLine{
+	width: 50%;
+	height: 1px;
+	margin-top: 20px;
+	margin-left: 28%;
+	background-color: #a9a9a9;
 }
 .blow{
 	width: 80%;
 	height: 43px;
 	margin: 17px auto;
-	border-top: 1px solid #fff;
-	color: #fff;
+	border-top: 1px solid #a9a9a9;
+	color: #a9a9a9;
 	text-align: center;
 	font-size: 16px;
 	line-height: 68px;
-}
-.footer ul,li,ol,p,a,span{
-	margin: 0; padding: 0;
-}
-.footer a{
-	text-decoration: none;
-}
-.footer li{
-	list-style: none; 
 }
