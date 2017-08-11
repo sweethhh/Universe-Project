@@ -11,7 +11,7 @@
 	<div class="guide">
 		<div class="guideMain">
 			<div class="logo">
-			<a href="hhg-Index.html"><img src="img/logoTwinkle1.png" style="position: absolute;" class="logoTwinkle" ><img src="img/logoTwinkle2.png" style="position: absolute;"></a>
+			<a href="hhg-Index.html"><img data-original="img/logoTwinkle1.png" style="position: absolute;" class="logoTwinkle" ><img src="img/logoTwinkle2.png" style="position: absolute;"></a>
 			<div class="guideText">
 				<a href="hhg-Index.html" class="index">首页</a>
                 <a href="about_us.html" class="about">关于</a>
@@ -24,6 +24,7 @@
 	</div>
 	<!-- banner -->
 	<div class="banner">
+		<img src="img/indexBanner1.jpg" class="lazy">
 		<div class="banner-ad"><span class="univers">选择我们,</span>创意无限大<span class="twinkle" id="twinkle"></span></div>
 	</div>
 	<!-- 我们的优势 -->
@@ -218,4 +219,12 @@
 </body>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/hhg-Index.js"></script>
+<script type="text/javascript" src="js/jquery.lazyload.js"></script>
+<script type="text/javascript">
+	window.onload=function(){
+		$('img.lazy').lazyload({
+			effect:"fadeIn"
+		});
+	}
+</script>
 </html>

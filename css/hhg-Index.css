@@ -56,7 +56,7 @@ a.index{
 }
 /*banner*/
 .banner{
-	background: url(../img/indexBanner1.jpg) center no-repeat;
+	/*background: url(../img/indexBanner1.jpg) center no-repeat;*/
 	background-size:cover; 
 	height: 500px;
 	width: 100%;
@@ -64,6 +64,12 @@ a.index{
 	color: white;
 	font-size: 60px;
 	font-family: "华文中宋";
+}
+.banner img{
+	position: absolute;
+	z-index: 0;
+	height: 500px;
+	width: 100%;
 }
 /*banner的闪烁条*/
 .twinkle{
@@ -76,10 +82,13 @@ a.index{
 }
 /*banner的文字*/
 .banner-ad{
+	position: absolute;
+	z-index: 1;
 	color: white;
 	font-size: 60px;
 	font-family: "华文中宋";
-	width: 600px;
+	width:100%;
+	left: 25%;
 	height: 500px;
 	line-height: 500px;
 	margin: 0 auto;
