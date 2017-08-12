@@ -13,8 +13,4 @@ $(function(){
 	function logoTwinkle(){
 		$(".logoTwinkle").toggle();
 	}
-	// Banner lazyload
-	$('img.lazy').lazyload({
-			effect:"fadeIn"
-		});
 });
