@@ -87,15 +87,17 @@ a.index{
 	color: white;
 	font-size: 60px;
 	font-family: "华文中宋";
-	width:100%;
+	width:75%;
 	left: 25%;
 	height: 500px;
 	line-height: 500px;
 	margin: 0 auto;
+	text-shadow: 5px 2px 2px  #25405E;
 }
 /*banner的英文字体*/
 .univers{
-	color:black;
+	color: #25405E;
+	text-shadow: 2px 2px 2px white;
 	font-family: Verdana,"华文中宋";
 }
 /*我们的优势*/
@@ -366,10 +368,10 @@ a.index{
 }
 /*结束广告语*/
 .endAd{
-	background: url(../img/indexAdmohu.png) no-repeat;
+	background: url(../img/indexAdmohu4.jpg) no-repeat;
 	background-size: 100% 500px;
 	width: 100%;
-	height: 500px;
+	height: 430px;
 }
 .endAd .endAdTitle{
 	text-align:center; 
@@ -396,11 +398,14 @@ a.index{
 .endAd .endAdIntro p.bigAd{
 	font-family: "微软雅黑";
 	color: white;
-	width: 700px;
+	width: 800px;
 	height: 50px;
 	font-size: 40px;
 	margin: 70px auto;
 	text-align: center;
+}
+.endAd .endAdIntro p.bigAd span{
+	color: #0066ff;
 }
 .endAd .endAdIntro p.smallAd{
 	font-family: "微软雅黑";
@@ -409,7 +414,7 @@ a.index{
 	width: 400px;
 	height: 50px;
 	font-size: 15px;
-	margin: 70px auto;
+	margin: 10px auto;
 	text-align: center;
 	border-top: 1px solid #9E808F;
 	margin-bottom: 0;
@@ -433,12 +438,32 @@ a.index{
 	line-height: 40px;
 	text-align: center;
 }
+.endAdButton .a1{
+	margin-right: 20px;
+	transition: background 0.5s;
+	font-family: "微软雅黑";
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	border: 1px solid #002762;
+	line-height: 40px;
+	text-align: center;
+	background: #002762;
+}
 .endAdButton a:hover{
-	color: #9E808F;
+	color: #002762;
 	background: white;
+}
+.endAdButton .a1:hover{
+	color: #002762;
+	background: none;
 }
 /*意见反馈*/
 .suggest{
+	margin-top: 50px;
 	font-family: "微软雅黑";
 	background: #F4F4F4;
 	width: 100%;
@@ -541,7 +566,7 @@ span{
 	background-color: #f7f9fa;
 }*/
 .footer{
-	width: 100%;
+	width: 99.8%;
 	height: 337px;
 	background-color: #000;
 	opacity: 1;
@@ -579,13 +604,14 @@ span{
 	color: #a9a9a9;
 	font-size: 12px;
 	text-align: left;
-	text-indent: 2em;
+	text-indent: 2em;	
 }
 .footerIntr img{
 	width: 16px;
 	height: 16px;
 	margin-left: 30%;
 	float: left;
+
 }
 .S_top{
     margin-top: 10px;
